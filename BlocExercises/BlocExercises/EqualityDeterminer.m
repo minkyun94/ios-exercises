@@ -12,6 +12,11 @@
 
 - (BOOL) string:(NSString *)string1 isTheSameAsString:(NSString *)string2 {
     /* WORK HERE */
+    if (string1 == string2) {
+        return YES;
+    } else {
+        return NO;
+    }
     return (string1 == string2);
 }
 

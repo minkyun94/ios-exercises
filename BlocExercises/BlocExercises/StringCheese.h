@@ -27,6 +27,8 @@
  */
 - (NSString *) favoriteCheeseStringWithCheese:(NSString *)cheeseName;
 
+
+
 /**
  Removes "cheese" from the end of a string about cheese and only returns 
  the name of the cheese.
@@ -44,6 +46,8 @@
  @return Returns the name of the favorite cheese without the word "cheese".
  */
 - (NSString *) cheeseNameWithoutCheeseSuffix:(NSString *)cheeseName;
+
+
 
 /**
  Creates a string indicating a the number of cheeses.
